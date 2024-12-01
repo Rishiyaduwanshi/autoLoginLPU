@@ -22,7 +22,7 @@ This Chrome extension automatically logs into LPU portals (such as [UMS](https:/
 
 If you want to quickly download the latest release, click the button below:
 
-<a href="https://github.com/rishiyaduwanshi/autoLoginLPU/releases/download/v1.0/extension.zip" target="_blank">
+<a href="https://github.com/Rishiyaduwanshi/autoLoginLPU/archive/refs/tags/v1.0.1.zip" target="_blank">
   <img src="https://img.shields.io/badge/Download-Extension-brightgreen" alt="Download Extension"/>
 </a>
 
