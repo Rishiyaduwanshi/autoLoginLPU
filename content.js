@@ -2,7 +2,6 @@
 chrome.storage.sync.get(['username', 'password'], function (data) {
     const { username, password } = data;
 
-
     function autofillAndSubmit(formSelectors) {
         const { usernameSelector, passwordSelector, formSelector } = formSelectors;
 
