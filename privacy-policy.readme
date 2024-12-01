@@ -1,0 +1,45 @@
+# Privacy Policy for LPU Auto Login Extension
+
+## Introduction
+
+This Privacy Policy explains how the **LPU Auto Login Extension** collects, uses, and stores data when you use this extension.
+
+By using this extension, you agree to the collection and use of information in accordance with this Privacy Policy.
+
+## Data Collection
+
+The **LPU Auto Login Extension** does not collect any personally identifiable information beyond what is required to enable its functionality. 
+
+### Data Stored:
+- **Credentials (username and password)** for LPU portals (UMS, LPU Live, OAS) stored **locally** in your browser’s local storage.
+- These credentials are only used to automatically fill in login forms on the respective LPU portals.
+
+## How We Use Your Data
+
+- The extension uses the credentials (username and password) to autofill login forms for LPU UMS, LPU Live, and OAS portals.
+- The data is **never sent to external servers** and is stored **locally** on your device, in your browser’s local storage.
+
+## Data Security
+
+- The extension does not transmit your data to any third party or external server.
+- All stored data is kept locally on your device, and the extension uses the browser’s local storage for storing credentials.
+
+## Data Retention
+
+Your credentials will remain saved in the browser’s local storage unless you decide to delete them. You have full control over your credentials and can remove them at any time.
+
+## Third-Party Sharing
+
+We **do not** share, sell, or transmit your data to any third-party services. All data stays local to your device.
+
+## Cookies
+
+This extension does **not** use cookies to track or store any user data.
+
+## Changes to the Privacy Policy
+
+We may update this Privacy Policy from time to time to reflect changes in data practices or for other operational, legal, or regulatory reasons. We will update the GitHub repository and the Chrome Web Store listing accordingly.
+
+## Contact Me
+
+If you have any questions or concerns regarding this Privacy Policy, please feel free to reach out.
