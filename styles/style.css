@@ -1,0 +1,76 @@
+@import url('./global.css');
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: var(--background-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+
+
+.popup-container {
+    width: 300px;
+    background: var(--card-background);
+    box-shadow: var(--box-shadow);
+    border-radius: var(--border-radius);
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+.popup-title {
+    font-size: var(--font-size-large);
+    margin-bottom: var(--margin);
+    color: var(--text-color-primary);
+}
+
+.form-group {
+    margin-bottom: var(--margin);
+    text-align: left;
+}
+
+label {
+    display: block;
+    font-size: var(--font-size-small);
+    color: var(--text-color-secondary);
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: var(--padding);
+    font-size: var(--font-size-normal);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    box-sizing: border-box;
+}
+
+
+.btn {
+    width: 100%;
+    padding: var(--padding);
+    background: var(--primary-color);
+    color: #fff;
+    font-size: var(--font-size-normal);
+    border: none;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: var(--primary-color-hover);
+}
+
+.info-text {
+    font-size: var(--font-size-small);
+    color: var(--text-color-info);
+    margin-top: 10px;
+    line-height: 1.4;
+}

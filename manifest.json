@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "LPU Auto Login",
+  "version": "1.0",
+  "description": "Automatically logs into LPU portals.",
+  "permissions": ["storage", "activeTab", "scripting"],
+  "host_permissions": [
+    "https://ums.lpu.in/*",
+    "https://lpulive.lpu.in/*",
+    "https://oas.lpu.in/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "/icons/icon16.png",
+      "128": "/icons/icon128.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://ums.lpu.in/*",
+        "https://lpulive.lpu.in/*",
+        "https://oas.lpu.in/*"
+      ],
+      "js": ["content.js"]
+    }
+  ]
+}
