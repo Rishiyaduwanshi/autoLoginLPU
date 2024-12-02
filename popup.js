@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   const form = document.getElementById('credentials-form');
   form.addEventListener('submit', function (e) {
-      e.preventDefault();  // Prevent form submission
+      e.preventDefault();  
       const username = document.getElementById('username').value;
       const password = document.getElementById('password').value;
       
