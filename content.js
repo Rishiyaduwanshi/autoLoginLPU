@@ -40,8 +40,17 @@ chrome.storage.sync.get(['autoLoginEnabled', 'username', 'password'], function (
       }
     }
 
-    const url = window.location.hostname;
-    if (url.includes("ums.lpu.in") || url.includes('ums.lpu.in/LoginNew.aspx')) {
+    const url = window.location.href.toLowerCase();
+    if (url.includes('ums.lpu.in/Placements'.toLowerCase())) {
+      autofillAndSubmit({
+        usernameSelector: 'input[name="txtUserName"]',
+        passwordSelector: 'input[name="txtPassword"]',
+        formSelector: 'form[action="/Home/NewLoginMethod"]',
+        anotherFormSelector :  'form[action="./"]',
+        submitButtonSelector: 'input[type="submit"]',
+      });
+    }
+    else if (url.includes("ums.lpu.in") || url.includes('ums.lpu.in/LoginNew.aspx'.toLowerCase())) {
       autofillAndSubmit({
         usernameSelector: 'input[name="txtU"]',
         passwordSelector: 'input[name="TxtpwdAutoId_8767"]',
@@ -65,7 +74,7 @@ chrome.storage.sync.get(['autoLoginEnabled', 'username', 'password'], function (
         submitButtonSelector: 'input[type="submit"]',
         errorSelector: '.alert.alert-danger'
       });
-    }
+    } 
   } else {
     console.log("Auto-login is either disabled or invalid credentials");
   }

@@ -1,27 +1,12 @@
 
 :root {
-    /* Colors */
-    --primary-color: #007bff;
-    --primary-color-hover: #0056b3;
-    --background-color: #b5b5b5;
-    --card-background: #000000;
-    --border-color: #ddd;
-    --text-color-primary: #ffffff;
-    --text-color-secondary: #666;
-    --text-color-info: #999;
-
-    /* Spacing */
-    --padding: 10px;
-    --margin: 15px;
-
-    /* Font Sizes */
-    --font-size-small: 0.85em;
-    --font-size-normal: 0.95em;
-    --font-size-large: 1.5em;
-
-    /* Border Radius */
-    --border-radius: 8px;
-
-    /* Box Shadow */
-    --box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  --bg-color: #1a1b26;          
+  --panel-color: #24283b;        
+  --primary-accent: #7aa2f7;     
+  --text-color: #c0caf5;         
+  --text-secondary: #a9b1d6;   
+  --border-color: #414868;       
+  --success-color: #9ece6a;      
+  --danger-color: #f7768e;       
+  --input-bg: #1e202e;           
 }
